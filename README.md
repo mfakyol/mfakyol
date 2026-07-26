@@ -26,6 +26,30 @@ All projects are deployed by me on Linux with **Docker Compose + nginx**.
 
 ---
 
+## 🔍 Engineering Highlights
+
+A few details I'm proud of, buried inside these repos:
+
+- **Idempotent message delivery** — client-generated temp IDs make message retries safe; no duplicates on flaky connections *(chatapp)*
+- **REST for mutations, sockets for fan-out** — Socket.io is strictly a delivery channel; every state change goes through validated HTTP endpoints *(chatapp)*
+- **One session, two protocols** — a single session middleware shared by Express and the Socket.io engine; no token duplication *(chatapp)*
+- **Magic-byte MIME sniffing** — uploads are validated by file signature, not by trusting extensions or client headers *(chatapp)*
+- **Mesh WebRTC** — video calls are fully peer-to-peer; media never touches the server *(meet)*
+- **Server-side preprocessor pipeline** — Sass, Less, Stylus, Pug, CoffeeScript and more compiled on the backend for live preview *(code-editor)*
+
+### How the chat platform works
+
+```mermaid
+flowchart LR
+    B["Browser<br/>(Next.js)"] -- "REST — all mutations" --> A["Express API"]
+    A --> DB[("MongoDB")]
+    B <-. "WebSocket — delivery only" .-> S["Socket.io"]
+    S --- A
+    A -- "events → per-user rooms" --> S
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 **Frontend**
@@ -58,4 +82,6 @@ All projects are deployed by me on Linux with **Docker Compose + nginx**.
 
 ---
 
-💼 Currently: **Senior Frontend Developer @ Naxxt Software** · 📍 Istanbul, Turkey · Open to new opportunities
+🌱 Currently exploring: **GraphQL** & **React Native**
+
+💼 **Senior Frontend Developer @ Naxxt Software** · 📍 Istanbul, Turkey · Open to new opportunities
