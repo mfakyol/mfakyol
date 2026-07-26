@@ -2,7 +2,7 @@
 
 # Fatih Akyol
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=1A4F8B&center=true&vCenter=true&width=520&lines=Senior+Frontend+Developer;React+%C2%B7+Next.js+%C2%B7+TypeScript;9+live+products+%E2%80%94+built+%26+shipped+end+to+end)](https://fatihakyol.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=1A4F8B&center=true&vCenter=true&width=520&lines=Senior+Frontend+Developer;React+%C2%B7+Next.js+%C2%B7+TypeScript)](https://fatihakyol.com)
 
 I build production-grade web applications and ship my own products end to end —
 everything below is **live, self-hosted, and open source**.
