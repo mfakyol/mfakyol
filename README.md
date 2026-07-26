@@ -1,6 +1,6 @@
 <div align="center">
 
-# Fatih Akyol
+# Fatih Akyol <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" alt="👋"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=1A4F8B&center=true&vCenter=true&width=520&lines=Senior+Frontend+Developer;React+%C2%B7+Next.js+%C2%B7+TypeScript)](https://fatihakyol.com)
 
@@ -8,6 +8,8 @@ I build production-grade web applications and ship my own products end to end �
 everything below is **live, self-hosted, and open source**.
 
 [**fatihakyol.com**](https://fatihakyol.com) &nbsp;·&nbsp; [**LinkedIn**](https://www.linkedin.com/in/mfatihakyol/) &nbsp;·&nbsp; [**Email**](mailto:muhammedfatihakyol@gmail.com)
+
+<img src="./assets/terminal.svg" width="560" alt="terminal"/>
 
 </div>
 
