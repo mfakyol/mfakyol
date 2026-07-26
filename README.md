@@ -2,7 +2,7 @@
 
 # Fatih Akyol <img src="./assets/wave.svg" width="30" alt="👋"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=1A4F8B&center=true&vCenter=true&width=520&lines=Senior+Frontend+Developer;React+%C2%B7+Next.js+%C2%B7+TypeScript)](https://fatihakyol.com)
+**Senior Frontend Developer** · React · Next.js · TypeScript
 
 I build production-grade web applications and ship my own products end to end —
 everything below is **live, self-hosted, and open source**.
