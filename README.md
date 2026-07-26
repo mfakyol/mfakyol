@@ -58,10 +58,4 @@ All projects are deployed by me on Linux with **Docker Compose + nginx**.
 
 ---
 
-## 📊 GitHub Stats
-
-![Fatih's GitHub stats](https://github-readme-stats.vercel.app/api?username=mfakyol&show_icons=true&theme=default&hide_border=true&rank_icon=github)
-
----
-
 💼 Currently: **Senior Frontend Developer @ Naxxt Software** · 📍 Istanbul, Turkey · Open to new opportunities
