@@ -4,7 +4,9 @@
 
 I build production-grade web applications and ship my own products end to end — everything below is **live, self-hosted, and open source**.
 
-🔗 **Portfolio:** [fatihakyol.com](https://fatihakyol.com) · 💼 [LinkedIn](https://www.linkedin.com/in/mfatihakyol/) · ✉️ muhammedfatihakyol@gmail.com
+[![Portfolio](https://img.shields.io/badge/Portfolio-fatihakyol.com-1a4f8b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://fatihakyol.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mfatihakyol-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mfatihakyol/)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammedfatihakyol@gmail.com)
 
 ---
 
@@ -23,30 +25,6 @@ I build production-grade web applications and ship my own products end to end �
 | 🎨 **Portfolio** | This all lives somewhere — animated portfolio built with Next.js, Motion & WebGL (OGL) | [fatihakyol.com](https://fatihakyol.com) | [repo](https://github.com/mfakyol/portfolio) |
 
 All projects are deployed by me on Linux with **Docker Compose + nginx**.
-
----
-
-## 🔍 Engineering Highlights
-
-A few details I'm proud of, buried inside these repos:
-
-- **Idempotent message delivery** — client-generated temp IDs make message retries safe; no duplicates on flaky connections *(chatapp)*
-- **REST for mutations, sockets for fan-out** — Socket.io is strictly a delivery channel; every state change goes through validated HTTP endpoints *(chatapp)*
-- **One session, two protocols** — a single session middleware shared by Express and the Socket.io engine; no token duplication *(chatapp)*
-- **Magic-byte MIME sniffing** — uploads are validated by file signature, not by trusting extensions or client headers *(chatapp)*
-- **Mesh WebRTC** — video calls are fully peer-to-peer; media never touches the server *(meet)*
-- **Server-side preprocessor pipeline** — Sass, Less, Stylus, Pug, CoffeeScript and more compiled on the backend for live preview *(code-editor)*
-
-### How the chat platform works
-
-```mermaid
-flowchart LR
-    B["Browser<br/>(Next.js)"] -- "REST — all mutations" --> A["Express API"]
-    A --> DB[("MongoDB")]
-    B <-. "WebSocket — delivery only" .-> S["Socket.io"]
-    S --- A
-    A -- "events → per-user rooms" --> S
-```
 
 ---
 
