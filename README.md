@@ -19,9 +19,10 @@ server, desktop apps install on Windows and macOS. **Everything below is open so
 
 **Senior Frontend Developer @ Naxxt Software** · 2021 – now · Istanbul
 
-- **Frontend lead** in a 7-person team: architecture, library choices, code standards, reviews and mentoring
-- **Shipped for clients across industries:** admin dashboards, e-commerce storefronts with checkout and payments, internal desktop apps and React Native mobile apps
-- **Kiosk software** in Electron, integrated with bill and coin acceptors
+- **Frontend lead** in a 7-person team: architecture, library choices, code standards, reviews and mentoring 5 junior developers
+- **Shipped ~15 client projects across industries:** admin dashboards, e-commerce storefronts with checkout and payments, internal desktop apps and React Native mobile apps
+- **Kiosk software** in Electron, integrated with bill and coin acceptors, running on 50+ devices
+- **Moved a business-critical admin dashboard from ASP.NET 4.5 to Next.js:** ~4x faster pages, a far more usable UI and stricter role-based access
 - **Closed security gaps** with a Backend-for-Frontend layer: httpOnly cookie sessions, permissions enforced on the server
 - **Modernized legacy apps:** AngularJS, jQuery and Angular 4–9 codebases moved to React and Next.js
 
